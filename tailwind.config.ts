@@ -7,9 +7,9 @@ const config: Config = {
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-    darkMode: 'selector',
     extend: {},
   },
+  darkMode: 'selector',
   plugins: [
     require('@catppuccin/tailwindcss')
   ],
